@@ -24,8 +24,13 @@ bundle exec ruby load.rb
   - Open http://localhost:5601/app/kibana#/management/kibana/index
   - Input `tweets` to "Index name or pattern" and submit "Create" button
 - Open http://localhost:5601/app/kibana#/visualize/create?type=tagcloud&indexPattern=tweets
-  - Set "Time Range" to `Last 1 year`
+  - Set "Time Range" to `Last 1 year` (or more long terms)
   - Fill form
     - "Field": `text`
     - "Size": `100` - `200`
     - "Exclude Pattern" in "Advanced": `.|[a-zぁ-ん]{2}|[0-9]+`
+
+
+## References ##
+
+- http://acro-engineer.hatenablog.com/entry/2016/12/18/234340
