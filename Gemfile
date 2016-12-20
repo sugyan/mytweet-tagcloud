@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'fluentd', '~> 0.14'
+gem 'elasticsearch', '~> 5.0'
